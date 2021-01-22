@@ -1,0 +1,177 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 218, 218);
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-row: 30% 10% 20% 20% 20%;
+    grid-gap: 20px;
+    color: #7D7D7D ;
+}
+
+header {
+    grid-column: 2;
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
+
+}
+
+header img {
+    width: 17%;
+    margin-top: 20px;
+    border-radius: 100%;
+    border: solid 2px rgb(216, 218, 218);
+}
+
+header h1 {
+    color: crimson;
+    font-weight: 900
+}
+
+header p {
+    padding: 0px 15px 20px 15px;
+    margin: 0px;
+}
+
+header p strong {
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+    color:  #f7f3ea ;
+    background-color: crimson;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.liens {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    padding: 50px;
+}
+
+.liens2 a {
+    text-decoration: none;
+    margin-top: 40px;
+    color: #7d7d7d59;
+}
+
+.liens2 i {
+    position: absolute;
+    top: 10px;
+    color: #7d7d7d2d;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 15px;
+ }
+
+.fav_film {
+    grid-column: 2;
+    grid-row: 3/6;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
+}
+
+.fav_film h2 {
+    margin: 0px;
+}
+
+.space {
+    background-color: white;
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 0px;
+}
+
+.space img {
+   display: block;
+    width: 20%;
+    height: 20%;
+    margin-top: 70px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.space1 p{
+    padding: 25px 30px;
+    text-align: left;
+    margin: 0;
+}
+
+.space h3{
+    padding-top: 50px;
+}
+
+.hulot {
+    background-color: white;
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 0px;
+}
+
+.hulot img {
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.hulot1 p{
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.hulot h3{
+    padding-top: 50px;
+}
+
+
+.alien {
+    background-color: white;
+    display: flex;
+    flex-flow: row-reverse;
+    border-radius: 5px;
+}
+
+.alien img {
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.alien1 p{
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.alien1 h3{
+    padding-top: 50px;
+}
